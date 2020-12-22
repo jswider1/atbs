@@ -11,4 +11,12 @@ print("Go ahead, store your age too, so everyone knows you're old?")
 dudesAge = input()
 print("Hopefully, you won't be " + str(int(dudesAge)+1) + " by the time you finish atbs.")
 
+if thisDude == 'Justin':
+    print('Dude, we are in an if.')
+elif dudesAge < 37:
+    print('Dude, you are at a lower level.')
+elif dudesAge > 42:
+    print('Dude, you are at a higher level.')
+elif dudesAge > 60:
+    print('Dude, you are at a master level.')
 
