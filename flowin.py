@@ -11,6 +11,7 @@ print("Go ahead, store your age too, so everyone knows you're old?")
 dudesAge = input()
 print("Hopefully, you won't be " + str(int(dudesAge)+1) + " by the time you finish atbs.")
 
+# maybe do more if else statements later, lets speed things up
 if thisDude == 'Justin':
     print('Dude, we are in an if.')
 elif dudesAge < 37:
