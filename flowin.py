@@ -38,6 +38,28 @@ while again != 'no':
         print("That is just 'n', lazy, type 'no' to leave the while loop.")
 print('Okay, out of that while loop.')
 
+# just some play with while , if , and continue
+gifts = 0
+print(str(gifts))
+while gifts < 4:
+    gifts = gifts + 1
+    print('In another while loop incrementing gifts')
+    if gifts == 2:
+        print('This if statement checks gifts and avoids output if gifts equals 2')
+        continue
+    print('which is now up to ' + str(gifts) + ' gifts.')
+
+# okay now remembering for loops in Python
+print('A loop to add a set of numbers within a specific range')
+total = 0
+for num in range(101):
+    total += num
+print(total)
+
+print("pumping out counts with 'range' funtion.")
+for i in range(0, 6, 2):
+    print("count " + str(i) + ".")
+
 while True:
     print('Type exit to exit.')
     response = input()
