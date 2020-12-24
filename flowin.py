@@ -16,7 +16,7 @@ print("Dude, you got " + str(len(thisDude)) + " letters in your n.") # concatena
 print("Go ahead, store your age too, so everyone knows you're old?")
 dudesAge = int(input())
 print("Hopefully, you won't be " + str(int(dudesAge)+1) + " by the time you finish atbs.")
-print(dudesAge)
+# print(dudesAge)
 # maybe do more if else statements later, lets speed things up
 if thisDude == 'Justin':
     print('Dude, we just went in an if.')
@@ -37,3 +37,12 @@ while again != 'no':
     if again == 'n':
         print("That is just 'n', lazy, type 'no' to leave the while loop.")
 print('Okay, out of that while loop.')
+
+while True:
+    print('Type exit to exit.')
+    response = input()
+    if response == 'exit':
+        sys.exit()
+    print('You typed ' + response + ', so not exiting yet.')
+
+
